@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-redes.css">
+    <link rel="stylesheet" href="css/portada.css">
+    <link rel="stylesheet" href="css/cuerpo.css">
+    <link rel="stylesheet" href="css/footerP.css">
+    <link rel="stylesheet" href="css/footerF.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <title>Librería</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1>
+                <img class="img-header"  src="imag/lapiz.png">
+                Librería bazar "FANTASÍA"
+            </h1>
+            <input type="checkbox" id="menu-bar">
+            <label  for="menu-bar">
+                <img class="img-header" src="imag/icono.png">
+            </label>
+            <nav class="menu">
+                <a href="#"><strong>Inicio</strong></a>
+                <a href="#"><strong>Productos</strong></a>
+                <a href="#"><strong>Ofertas</strong></a>
+                <a href="#"><strong>Contactos</strong></a>
+                <!-- <img src="imag/lapiz.gif" alt=""> -->
+            </nav>
+        </div>
+    </header>
+
+
+        <!-- Iconos Sociales -->
+
+        <div class="Logos-sociales"></div>
+
+        <script>
+            $(document).ready(function () {
+                $('.Logos-sociales').load('./logos_sociales.html');
+            });
+        </script>
+
+    
+    <main>
+        <!-- Portada -->
+        <div class="Portada"></div>
+
+            <script>
+                $(document).ready(function () {
+                    $('.Portada').load('./portada.html');
+                });
+            </script>
+
+        <!-- cuerpo -->
+
+        <div class="Cuerpo"></div>
+
+            <script>
+                $(document).ready(function () {
+                    $('.Cuerpo').load('./cuerpo.html');
+                });
+            </script>
+    </main>
+
+    <!-- footer-Prefinal -->
+        <div class="footerP"></div>
+
+        <script>
+            $(document).ready(function () {
+                $('.footerP').load('./footerP.html');
+            });
+        </script>
+    
+    <!-- footer-Final -->
+    <div class="footerF"></div>
+
+    <script>
+        $(document).ready(function () {
+            $('.footerF').load('./footerF.html');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+.icon-facebook {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 220px;
+    z-index: 90;
+ 
+}
+
+.icon-facebook img{
+    padding-top: 0;
+    height: 60px;
+    width: 60px;
+}
+
+
+.div-facebook{
+    width: 10%;
+    margin: auto;
+    float: right; 
+   
+}
+
+
+.icon-whatsapp {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 420px;
+    z-index: 90;
+    
+}
+
+
+.icon-whatsapp img{
+    padding-top: 0;
+    height: 60px;
+    width: 60px;
+}
+
+.div-whatsapp{
+    width: 10%;
+    margin: auto;
+    float: right;
+}
+
+.icon-instagram {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 620px;
+    z-index: 90;
+    
+}    
+
+.icon-instagram img{
+    padding-top: 0;
+    height: 60px;
+    width: 60px;
+}
+
+.div-instagram{
+    width: 10%;
+    margin: auto;
+    float: right;
+}

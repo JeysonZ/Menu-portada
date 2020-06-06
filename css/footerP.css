@@ -1,0 +1,59 @@
+
+.footerP{
+    background:#363839;
+}
+
+.footerP h4{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footerP .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footerP article{
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+
+.footerP p{
+    
+    color: #8c8989;
+    
+}
+
+article a{
+    display: block;
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: #8c8989;
+}
+
+article a:hover{
+    color: white;
+}
+
+/* 
+.PrimeraColumna p{
+    color: #d8d8d8;
+    margin: block;
+    margin-block-start:1px;
+    margin-block-end:15px;
+}
+
+.SegundaColumna p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    box-sizing: border-box;
+} */
+
+@media (min-width:768px){
+    .PrimeraColumna{
+        width: 440px;
+    }
+}
+

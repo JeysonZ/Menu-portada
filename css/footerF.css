@@ -1,0 +1,23 @@
+.footerF{
+    background:black;
+    text-align: center;
+    height: 100px;
+}
+
+.divfinal{
+    
+    margin-bottom: 15px;
+    color: white;
+    border: 1px solid black;
+    
+}
+
+.divfinal p{
+    margin-top: 15px;
+}
+
+
+.logos-finales a{
+    color: white;
+    text-decoration: none;
+}
