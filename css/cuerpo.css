@@ -91,23 +91,3 @@ h3:hover{
 }
 
 
-@keyframes BGcolor {
-    0%{
-        background: #ead519;
-    }
-    20%{
-        background: #cc85f5;
-    }
-    40%{
-        background: #db0267;
-    }
-    60%{
-        background: #f5be10;
-    }
-    80%{
-        background: #ce5d11;
-    }
-    100%{
-        background: #a802a0;
-    }
-}

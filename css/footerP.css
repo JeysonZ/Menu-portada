@@ -8,9 +8,18 @@
     color: white;
 }
 
+.contenedor{
+    width: 98%;
+    margin: auto;  
+    /* border: 1px solid blue; */
+
+}
+
 .footerP .contenedor{
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 
 
@@ -50,6 +59,31 @@ article a:hover{
     margin-block-end: 1em;
     box-sizing: border-box;
 } */
+
+
+
+/* pantalla Normal -  iPad Pro */
+
+@media (min-width:1024px){
+
+
+    .footerP .contenedor{
+        width: 1050px;
+    }
+
+    .footerF .contenedor{
+        width: 1350px;
+    } 
+
+    #cuerpo .contenedor{
+        width: 1350px;
+    }
+
+    header .cabeza{
+        width: 1350px;
+    }
+}
+
 
 @media (min-width:768px){
     .PrimeraColumna{

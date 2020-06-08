@@ -1,0 +1,66 @@
+.cuerpo-contactenos{
+    margin-top:50px;
+    animation: BGcolor 10s linear infinite alternate both;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+
+.div-logo{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+
+.cuerpo-contactenos img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 22%;
+    /* float: left; */
+    /* border: 1px solid black; */
+    /* opacity: 0.5; */
+}
+
+
+
+
+.texto-logo{
+    width: 100%;
+    height: 70px;
+     /* border: 1px solid black;  */
+}
+
+.texto-logo h1{
+    color: beige;
+    font-size: 40px;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+}
+
+.texto-mapa h1{
+    color: beige;
+    font-size: 30px;
+    margin-left: 28%;
+    /* border: 1px solid black; */
+}
+
+.texto2-logo{
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    /* margin-right: 3%; */
+    margin-bottom: 20px;
+    
+}
+
+.cuerpo-contactenos iframe{
+    width: 90%;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 5%;
+    border-radius: 5%; 
+}
